@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "colName": "Colegio",
+    "created": "2022-05-09T19:11:56.709Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "f1cc2e9d-6bc6-4479-9ec8-cdbc82469564",
+        "name": "curso",
+        "containerId": "",
+        "created": "2022-05-09T19:12:06.188Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "6eb70e02-5977-4387-9b54-1ad3ff3cc17c",
+        "name": "Principal",
+        "containerId": "",
+        "created": "2022-05-18T14:50:58.485Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "81fa5a3f-473a-4c6f-a253-a84b3afb06cb",
+        "name": "Profesores",
+        "containerId": "",
+        "created": "2022-07-12T20:52:16.348Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "1a0c472f-8012-4b4e-bda5-ecae895df836",
+        "name": "Estudiante",
+        "containerId": "",
+        "created": "2022-07-12T20:55:12.703Z",
+        "sortNum": 25000
+      },
+      {
+        "_id": "3f289a9f-5d43-44ab-83b5-56dbfc97dd71",
+        "name": "Tutores",
+        "containerId": "",
+        "created": "2022-07-12T21:01:06.272Z",
+        "sortNum": 27500
+      },
+      {
+        "_id": "82825eca-26ed-4b94-9b02-735f5418ba65",
+        "name": "Materia",
+        "containerId": "",
+        "created": "2022-07-12T21:19:01.798Z",
+        "sortNum": 40000
+      }
+    ]
+  }
+]

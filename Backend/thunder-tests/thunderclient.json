@@ -1,0 +1,272 @@
+[
+  {
+    "_id": "f3c4f4e4-9b28-4090-9cc8-9bfb3838fc02",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "f1cc2e9d-6bc6-4479-9ec8-cdbc82469564",
+    "name": "POST",
+    "url": "http://localhost:7000/api/v1/cursos",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-05-09T19:12:14.364Z",
+    "modified": "2022-07-12T21:21:58.900Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Segundo\",\n    \"paralelo\":\"A\",\n    \"nivel\":\"Primario\",\n    \"idMaterias\":[1,2]\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "e022db35-9f11-42ab-a885-532d4e2b58b3",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "",
+    "name": "LOGIN",
+    "url": "http://localhost:7000/api/v1/auth/login",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-05-09T19:12:25.655Z",
+    "modified": "2022-05-09T19:14:11.800Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"usuario\":\"Direc\",\n    \"clave\":\"123456\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9bc25527-9eb8-4473-951f-2028c401a5e7",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "f1cc2e9d-6bc6-4479-9ec8-cdbc82469564",
+    "name": "PUT",
+    "url": "http://localhost:7000/api/v1/cursos/11",
+    "method": "PUT",
+    "sortNum": 30000,
+    "created": "2022-05-09T19:18:12.999Z",
+    "modified": "2022-05-09T19:18:49.984Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Segundo edit\",\n    \"paralelo\":\"A\",\n    \"nivel\":\"Primario\",\n    \"idProfesor\":2,\n    \"idMaterias\":[1]\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "676f4780-65c4-435c-b82a-dec9a7608087",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "6eb70e02-5977-4387-9b54-1ad3ff3cc17c",
+    "name": "GET",
+    "url": "http://localhost:7000/api/v1/principal",
+    "method": "GET",
+    "sortNum": 40000,
+    "created": "2022-05-18T15:04:57.845Z",
+    "modified": "2022-05-18T15:05:39.794Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "519fb411-7a11-4fe8-a4d4-d261b5d247aa",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "81fa5a3f-473a-4c6f-a253-a84b3afb06cb",
+    "name": "Get",
+    "url": "http://localhost:7000/api/v1/profesores/estado",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-07-12T20:52:23.746Z",
+    "modified": "2022-07-12T21:17:26.196Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "63bc1da6-4b3a-4f0d-9b1f-f4a1c7c85061",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "81fa5a3f-473a-4c6f-a253-a84b3afb06cb",
+    "name": "POST",
+    "url": "http://localhost:7000/api/v1/auth/signUp",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-07-12T20:53:15.816Z",
+    "modified": "2022-07-12T20:54:55.277Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Carlos\",\n    \"correo\":\"chelo@123.com\",\n    \"usuario\":\"carlos\",\n    \"clave\":\"123456\",\n    \"rol\":\"2\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "78b90983-f93e-4485-b456-c06969061008",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "1a0c472f-8012-4b4e-bda5-ecae895df836",
+    "name": "Get",
+    "url": "http://localhost:7000/api/v1/estudiantes",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-07-12T20:55:12.703Z",
+    "modified": "2022-07-12T20:55:28.292Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "e6c0fd16-b447-4424-9418-a1c2c2681577",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "1a0c472f-8012-4b4e-bda5-ecae895df836",
+    "name": "POST",
+    "url": "http://localhost:7000/api/v1/auth/signUp",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-07-12T20:55:12.704Z",
+    "modified": "2022-07-12T21:00:51.310Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Carlos\",\n    \"correo\":\"chesloss1@123.com\",\n    \"usuario\":\"carlos\",\n    \"clave\":\"123456\",\n    \"rol\":\"3\",\n    \"rude\":\"123123ACsd\",\n    \"idTutor\":1\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f25a4e69-abd6-4b2b-acc0-4ee6045a64c7",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "3f289a9f-5d43-44ab-83b5-56dbfc97dd71",
+    "name": "Get",
+    "url": "http://localhost:7000/api/v1/tutores",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2022-07-12T21:01:06.272Z",
+    "modified": "2022-07-12T21:01:20.552Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f38d0655-addf-4423-9e53-bed986a776cb",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "3f289a9f-5d43-44ab-83b5-56dbfc97dd71",
+    "name": "POST",
+    "url": "http://localhost:7000/api/v1/auth/signUp",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2022-07-12T21:01:06.273Z",
+    "modified": "2022-07-12T21:01:33.266Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Carlos\",\n    \"correo\":\"chelso@123.com\",\n    \"usuario\":\"carlos\",\n    \"clave\":\"123456\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "f95892b7-407e-4f2f-8f6c-97d546f80c10",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "1a0c472f-8012-4b4e-bda5-ecae895df836",
+    "name": "PUT",
+    "url": "http://localhost:7000/api/v1/estudiantes/",
+    "method": "PUT",
+    "sortNum": 70000,
+    "created": "2022-07-12T21:02:25.481Z",
+    "modified": "2022-07-12T21:07:42.427Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Carlos edit\",\n    \"correo\":\"chesloss1@123.com\",\n    \"usuario\":\"carlos\",\n    \"clave\":\"123456\",\n    \"rude\":\"123123ACsd\",\n    \"idTutor\":1\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "2f71a61e-7455-491b-a678-27ff67e00dce",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "82825eca-26ed-4b94-9b02-735f5418ba65",
+    "name": "Get",
+    "url": "http://localhost:7000/api/v1/materias",
+    "method": "GET",
+    "sortNum": 60000,
+    "created": "2022-07-12T21:19:06.631Z",
+    "modified": "2022-07-12T21:19:24.077Z",
+    "headers": [],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  },
+  {
+    "_id": "20a9161d-d597-466a-bfe6-a8cd0a4d9f80",
+    "colId": "7e9e1971-b66e-44ec-8acc-1a8e60bfcd1c",
+    "containerId": "82825eca-26ed-4b94-9b02-735f5418ba65",
+    "name": "Post",
+    "url": "http://localhost:7000/api/v1/materias",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2022-07-12T21:19:29.049Z",
+    "modified": "2022-07-12T21:20:03.415Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"nombre\":\"Mate\",\n    \"sigla\":\"mat\",\n    \"idProfesor\":1\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "{{token}}"
+    },
+    "tests": []
+  }
+]

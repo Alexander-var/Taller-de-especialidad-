@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "c51d1475-b6c5-4c86-96b0-9911e5ad1945",
+    "name": "tokenColegio",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2022-05-09T19:14:32.759Z",
+    "modified": "2022-07-12T20:52:31.611Z",
+    "data": [
+      {
+        "name": "token",
+        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibm9tYnJlIjoiSm9obiIsInVzdWFyaW8iOiJEaXJlYyIsImNvcnJlbyI6ImpvaG5jZW5hQGdtYWlsLmNvbSIsInJvbCI6MSwiaWF0IjoxNjU3NjU5MTE2LCJleHAiOjE2NTc2NzM1MTZ9.YzK8W4NJJuaeELtI_viGiG7gPrAXR4Sx18CIft-_tDY"
+      }
+    ]
+  }
+]

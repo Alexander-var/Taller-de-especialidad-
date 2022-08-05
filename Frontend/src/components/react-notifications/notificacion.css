@@ -1,0 +1,194 @@
+.notification {
+    border-radius: 15px;
+    padding: 25px 25px 25px 25px;
+  }
+  .notification:before {
+    content: '';
+    display: none;
+  }
+  .notification-primary {
+    color: #bfff8a;
+    background-color: #131313;
+    border: 1px solid #bfff8a;
+    opacity: 1;
+  }
+  .notification-primary .notification-message .title {
+    color: #bfff8a;
+  }
+  .notification-primary .notification-message .message {
+    color: #161616;
+  }
+  .notification-primary.filled {
+    color: #131313;
+    background-color: #bfff8a;
+  }
+  .notification-primary.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-primary.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-secondary {
+    color: #ccc;
+    background-color: #131313;
+    border: 1px solid #ccc;
+    opacity: 1;
+  }
+  .notification-secondary .notification-message .title {
+    color: #ccc;
+  }
+  .notification-secondary .notification-message .message {
+    color: #ccc;
+  }
+  .notification-secondary.filled {
+    color: #131313;
+    background-color: #ccc;
+  }
+  .notification-secondary.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-secondary.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-info {
+    color: #45d6fa;
+    background-color: #131313;
+    border: 1px solid #45d6fa;
+    opacity: 1;
+  }
+  .notification-info .notification-message .title {
+    color: #45d6fa;
+  }
+  .notification-info .notification-message .message {
+    color: #ccc;
+  }
+  .notification-info.filled {
+    color: #131313;
+    background-color: #45d6fa;
+  }
+  .notification-info.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-info.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-success {
+    color: #90ca4d;
+    background-color: #131313;
+    border: 1px solid #90ca4d;
+    opacity: 1;
+  }
+  .notification-success .notification-message .title {
+    color: #90ca4d;
+  }
+  .notification-success .notification-message .message {
+    color: #ccc;
+  }
+  .notification-success.filled {
+    color: #131313;
+    background-color: #90ca4d;
+  }
+  .notification-success.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-success.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-warning {
+    color: #f0c079;
+    background-color: #131313;
+    border: 1px solid #f0c079;
+    opacity: 1;
+  }
+  .notification-warning .notification-message .title {
+    color: #f0c079;
+  }
+  .notification-warning .notification-message .message {
+    color: #ccc;
+  }
+  .notification-warning.filled {
+    color: #131313;
+    background-color: #f0c079;
+  }
+  .notification-warning.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-warning.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-error {
+    color: #fc8989;
+    background-color: #131313;
+    border: 1px solid #fc8989;
+    opacity: 1;
+  }
+  .notification-error .notification-message .title {
+    color: #fc8989;
+  }
+  .notification-error .notification-message .message {
+    color: #ccc;
+  }
+  .notification-error.filled {
+    color: #131313;
+    background-color: #fc8989;
+  }
+  .notification-error.filled .notification-message .title {
+    color: #131313;
+  }
+  .notification-error.filled .notification-message .message {
+    color: #131313;
+  }
+  .notification-container {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    width: 320px;
+    padding: 0px 15px;
+    max-height: calc(100% - 30px);
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .notification {
+    box-sizing: border-box;
+    padding: 15px 15px 15px 58px;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 1em;
+    line-height: 1.2em;
+    position: relative;
+    opacity: 0.9;
+    margin-top: 15px;
+  }
+  .notification .title {
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+  }
+  .notification:hover, .notification:focus {
+    opacity: 1;
+  }
+  .notification-enter {
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+  }
+  .notification-enter.notification-enter-active {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.4s;
+  }
+  .notification-leave {
+    visibility: visible;
+    transform: translate3d(0, 0, 0);
+  }
+  .notification-leave.notification-leave-active {
+    visibility: hidden;
+    transform: translate3d(100%, 0, 0);
+    transition: all 0.4s;
+  }
+  .rounded .notification {
+    border-radius: 20px;
+  }
+  
